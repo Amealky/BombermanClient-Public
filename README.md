@@ -1,2 +1,9 @@
-# BombermanClient-Public
-About 2018 - Student Game Project
+# About
+
+Student project 🏫
+
+# BombermanClient 2018
+
+BombermanClient is a prototype game of bomberman but with farmer and butter as bomb 
+
+

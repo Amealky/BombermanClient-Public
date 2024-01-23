@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821C2AA420CD693C0074BACE /* GameServerService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821C2AA220CD693C0074BACE /* GameServerService.cpp */; };
+		82A54EBC20F5453D00408B1F /* Lobby.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A54EBA20F5453D00408B1F /* Lobby.cpp */; };
+		82BA799E20EFD94D00328426 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82BA799C20EFD94D00328426 /* StringUtil.cpp */; };
+		82D1D97F20B04C3C00136978 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82D1D97E20B04C3C00136978 /* ResourcePath.mm */; };
+		82D1D98220B04C3C00136978 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D1D98120B04C3C00136978 /* main.cpp */; };
+		82D1D98520B04C3C00136978 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82D1D98420B04C3C00136978 /* cute_image.jpg */; };
+		82D1D98720B04C3C00136978 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 82D1D98620B04C3C00136978 /* nice_music.ogg */; };
+		82D1D98920B04C3C00136978 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82D1D98820B04C3C00136978 /* sansation.ttf */; };
+		82D1D98B20B04C3C00136978 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D1D98A20B04C3C00136978 /* icon.png */; };
+		E406F99420B0A6D700633957 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E406F99320B0A6D700633957 /* Map.cpp */; };
+		E406F99720B0A9B100633957 /* Bomb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E406F99520B0A9B100633957 /* Bomb.cpp */; };
+		E406F99A20B0AAFD00633957 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E406F99820B0AAFD00633957 /* Player.cpp */; };
+		E40BEE6620FBF87F0058CC82 /* homescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E40BEE6520FBF87E0058CC82 /* homescreen.png */; };
+		E40BEE6820FBF8940058CC82 /* fermie04rSpriteSheet.gif in Resources */ = {isa = PBXBuildFile; fileRef = E40BEE6720FBF8940058CC82 /* fermie04rSpriteSheet.gif */; };
+		E40BEE6A20FBF89B0058CC82 /* fermie03rSpriteSheet.gif in Resources */ = {isa = PBXBuildFile; fileRef = E40BEE6920FBF89B0058CC82 /* fermie03rSpriteSheet.gif */; };
+		E40BEE6C20FBF8A20058CC82 /* fermie02rSpriteSheet.gif in Resources */ = {isa = PBXBuildFile; fileRef = E40BEE6B20FBF8A20058CC82 /* fermie02rSpriteSheet.gif */; };
+		E4168B3820EA57D6005A98EC /* fermie01rSpriteSheet.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4168B3720EA57D3005A98EC /* fermie01rSpriteSheet.gif */; };
+		E423497120CE9A26005DE9FB /* LevelManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E423496F20CE9A26005DE9FB /* LevelManager.cpp */; };
+		E426533C20C983E50088624E /* GameEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E426533A20C983E50088624E /* GameEngine.cpp */; };
+		E46C925A20D7FC0A0021E6FB /* KeyboardController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E46C925820D7FC0A0021E6FB /* KeyboardController.cpp */; };
+		E46C925F20D800DD0021E6FB /* testBigMap.txt in Resources */ = {isa = PBXBuildFile; fileRef = E46C925E20D800DD0021E6FB /* testBigMap.txt */; };
+		E4CA526420DB9CBF004CB928 /* RoomMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4CA526220DB9CBF004CB928 /* RoomMenu.cpp */; };
+		E4D0BCA220D3CE1200B26378 /* BonBeurreMap1.txt in Resources */ = {isa = PBXBuildFile; fileRef = E4D0BCA120D3CE1200B26378 /* BonBeurreMap1.txt */; };
+		E4D0BCA420D3D20D00B26378 /* bonbeurremanTileset.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D0BCA320D3D20D00B26378 /* bonbeurremanTileset.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		821C2AA220CD693C0074BACE /* GameServerService.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameServerService.cpp; sourceTree = "<group>"; };
+		821C2AA320CD693C0074BACE /* GameServerService.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameServerService.hpp; sourceTree = "<group>"; };
+		82A54EBA20F5453D00408B1F /* Lobby.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lobby.cpp; sourceTree = "<group>"; };
+		82A54EBB20F5453D00408B1F /* Lobby.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lobby.hpp; sourceTree = "<group>"; };
+		82BA799C20EFD94D00328426 /* StringUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtil.cpp; sourceTree = "<group>"; };
+		82BA799D20EFD94D00328426 /* StringUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringUtil.hpp; sourceTree = "<group>"; };
+		82D1D97920B04C3C00136978 /* BombermanClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BombermanClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D1D97D20B04C3C00136978 /* BombermanClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BombermanClient-Info.plist"; sourceTree = "<group>"; };
+		82D1D97E20B04C3C00136978 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		82D1D98020B04C3C00136978 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		82D1D98120B04C3C00136978 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		82D1D98420B04C3C00136978 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		82D1D98620B04C3C00136978 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		82D1D98820B04C3C00136978 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		82D1D98A20B04C3C00136978 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E406F99220B0A35C00633957 /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		E406F99320B0A6D700633957 /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		E406F99520B0A9B100633957 /* Bomb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bomb.cpp; sourceTree = "<group>"; };
+		E406F99620B0A9B100633957 /* Bomb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bomb.hpp; sourceTree = "<group>"; };
+		E406F99820B0AAFD00633957 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		E406F99920B0AAFD00633957 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		E40BEE6520FBF87E0058CC82 /* homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homescreen.png; sourceTree = "<group>"; };
+		E40BEE6720FBF8940058CC82 /* fermie04rSpriteSheet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fermie04rSpriteSheet.gif; sourceTree = "<group>"; };
+		E40BEE6920FBF89B0058CC82 /* fermie03rSpriteSheet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fermie03rSpriteSheet.gif; sourceTree = "<group>"; };
+		E40BEE6B20FBF8A20058CC82 /* fermie02rSpriteSheet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fermie02rSpriteSheet.gif; sourceTree = "<group>"; };
+		E4168B3720EA57D3005A98EC /* fermie01rSpriteSheet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fermie01rSpriteSheet.gif; sourceTree = "<group>"; };
+		E423496F20CE9A26005DE9FB /* LevelManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LevelManager.cpp; sourceTree = "<group>"; };
+		E423497020CE9A26005DE9FB /* LevelManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LevelManager.hpp; sourceTree = "<group>"; };
+		E426533A20C983E50088624E /* GameEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameEngine.cpp; sourceTree = "<group>"; };
+		E426533B20C983E50088624E /* GameEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameEngine.hpp; sourceTree = "<group>"; };
+		E46C925820D7FC0A0021E6FB /* KeyboardController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeyboardController.cpp; sourceTree = "<group>"; };
+		E46C925920D7FC0A0021E6FB /* KeyboardController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeyboardController.hpp; sourceTree = "<group>"; };
+		E46C925C20D7FC490021E6FB /* IController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IController.hpp; sourceTree = "<group>"; };
+		E46C925E20D800DD0021E6FB /* testBigMap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testBigMap.txt; sourceTree = "<group>"; };
+		E4CA526220DB9CBF004CB928 /* RoomMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RoomMenu.cpp; sourceTree = "<group>"; };
+		E4CA526320DB9CBF004CB928 /* RoomMenu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RoomMenu.hpp; sourceTree = "<group>"; };
+		E4CA526920DBCB0A004CB928 /* IMenu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IMenu.hpp; sourceTree = "<group>"; };
+		E4D0BCA120D3CE1200B26378 /* BonBeurreMap1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BonBeurreMap1.txt; sourceTree = "<group>"; };
+		E4D0BCA320D3D20D00B26378 /* bonbeurremanTileset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonbeurremanTileset.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D1D97520B04C3C00136978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D1D96F20B04C3C00136978 = {
+			isa = PBXGroup;
+			children = (
+				82D1D97B20B04C3C00136978 /* BombermanClient */,
+				82D1D97A20B04C3C00136978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D1D97A20B04C3C00136978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D1D97920B04C3C00136978 /* BombermanClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D1D97B20B04C3C00136978 /* BombermanClient */ = {
+			isa = PBXGroup;
+			children = (
+				E46C925720D7FAB30021E6FB /* Controllers */,
+				E426533920C983B30088624E /* Engines */,
+				E426533720C97C110088624E /* Menus */,
+				E426533520C97A510088624E /* Managers */,
+				E426533420C97A460088624E /* Services */,
+				E426533320C95E0B0088624E /* Utils */,
+				E406F99120B0A30400633957 /* Models */,
+				82D1D98120B04C3C00136978 /* main.cpp */,
+				82D1D98020B04C3C00136978 /* ResourcePath.hpp */,
+				82D1D97E20B04C3C00136978 /* ResourcePath.mm */,
+				82D1D98320B04C3C00136978 /* Resources */,
+				82D1D97C20B04C3C00136978 /* Supporting Files */,
+			);
+			path = BombermanClient;
+			sourceTree = "<group>";
+		};
+		82D1D97C20B04C3C00136978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D1D97D20B04C3C00136978 /* BombermanClient-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82D1D98320B04C3C00136978 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E426533220C9555F0088624E /* Musics */,
+				E426533120C955540088624E /* Sounds */,
+				E426533020C9554B0088624E /* Sprites */,
+				E426532F20C955430088624E /* Tilesets */,
+				E426532E20C954B80088624E /* Maps */,
+				82D1D98420B04C3C00136978 /* cute_image.jpg */,
+				82D1D98620B04C3C00136978 /* nice_music.ogg */,
+				82D1D98820B04C3C00136978 /* sansation.ttf */,
+				82D1D98A20B04C3C00136978 /* icon.png */,
+				E40BEE6520FBF87E0058CC82 /* homescreen.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E406F99120B0A30400633957 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E406F99220B0A35C00633957 /* Map.hpp */,
+				E406F99320B0A6D700633957 /* Map.cpp */,
+				E406F99520B0A9B100633957 /* Bomb.cpp */,
+				E406F99620B0A9B100633957 /* Bomb.hpp */,
+				E406F99820B0AAFD00633957 /* Player.cpp */,
+				E406F99920B0AAFD00633957 /* Player.hpp */,
+				82A54EBA20F5453D00408B1F /* Lobby.cpp */,
+				82A54EBB20F5453D00408B1F /* Lobby.hpp */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E426532E20C954B80088624E /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E46C925E20D800DD0021E6FB /* testBigMap.txt */,
+				E4D0BCA120D3CE1200B26378 /* BonBeurreMap1.txt */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		E426532F20C955430088624E /* Tilesets */ = {
+			isa = PBXGroup;
+			children = (
+				E4D0BCA320D3D20D00B26378 /* bonbeurremanTileset.png */,
+			);
+			name = Tilesets;
+			sourceTree = "<group>";
+		};
+		E426533020C9554B0088624E /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				E40BEE6B20FBF8A20058CC82 /* fermie02rSpriteSheet.gif */,
+				E40BEE6920FBF89B0058CC82 /* fermie03rSpriteSheet.gif */,
+				E40BEE6720FBF8940058CC82 /* fermie04rSpriteSheet.gif */,
+				E4168B3720EA57D3005A98EC /* fermie01rSpriteSheet.gif */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		E426533120C955540088624E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		E426533220C9555F0088624E /* Musics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Musics;
+			sourceTree = "<group>";
+		};
+		E426533320C95E0B0088624E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				82BA799C20EFD94D00328426 /* StringUtil.cpp */,
+				82BA799D20EFD94D00328426 /* StringUtil.hpp */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E426533420C97A460088624E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				821C2AA220CD693C0074BACE /* GameServerService.cpp */,
+				821C2AA320CD693C0074BACE /* GameServerService.hpp */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		E426533520C97A510088624E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E423496F20CE9A26005DE9FB /* LevelManager.cpp */,
+				E423497020CE9A26005DE9FB /* LevelManager.hpp */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		E426533720C97C110088624E /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				E4CA526320DB9CBF004CB928 /* RoomMenu.hpp */,
+				E4CA526220DB9CBF004CB928 /* RoomMenu.cpp */,
+				E4CA526920DBCB0A004CB928 /* IMenu.hpp */,
+			);
+			name = Menus;
+			sourceTree = "<group>";
+		};
+		E426533920C983B30088624E /* Engines */ = {
+			isa = PBXGroup;
+			children = (
+				E426533A20C983E50088624E /* GameEngine.cpp */,
+				E426533B20C983E50088624E /* GameEngine.hpp */,
+			);
+			name = Engines;
+			sourceTree = "<group>";
+		};
+		E46C925720D7FAB30021E6FB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E46C925820D7FC0A0021E6FB /* KeyboardController.cpp */,
+				E46C925920D7FC0A0021E6FB /* KeyboardController.hpp */,
+				E46C925C20D7FC490021E6FB /* IController.hpp */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D1D97820B04C3C00136978 /* BombermanClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D1D98E20B04C3C00136978 /* Build configuration list for PBXNativeTarget "BombermanClient" */;
+			buildPhases = (
+				82D1D97420B04C3C00136978 /* Sources */,
+				82D1D97520B04C3C00136978 /* Frameworks */,
+				82D1D97620B04C3C00136978 /* Resources */,
+				82D1D97720B04C3C00136978 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BombermanClient;
+			productName = BombermanClient;
+			productReference = 82D1D97920B04C3C00136978 /* BombermanClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D1D97020B04C3C00136978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Amealky";
+				TargetAttributes = {
+					82D1D97820B04C3C00136978 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 82D1D97320B04C3C00136978 /* Build configuration list for PBXProject "BombermanClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82D1D96F20B04C3C00136978;
+			productRefGroup = 82D1D97A20B04C3C00136978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D1D97820B04C3C00136978 /* BombermanClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D1D97620B04C3C00136978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BEE6C20FBF8A20058CC82 /* fermie02rSpriteSheet.gif in Resources */,
+				E40BEE6620FBF87F0058CC82 /* homescreen.png in Resources */,
+				E46C925F20D800DD0021E6FB /* testBigMap.txt in Resources */,
+				E4D0BCA420D3D20D00B26378 /* bonbeurremanTileset.png in Resources */,
+				E40BEE6A20FBF89B0058CC82 /* fermie03rSpriteSheet.gif in Resources */,
+				82D1D98B20B04C3C00136978 /* icon.png in Resources */,
+				82D1D98920B04C3C00136978 /* sansation.ttf in Resources */,
+				82D1D98720B04C3C00136978 /* nice_music.ogg in Resources */,
+				E40BEE6820FBF8940058CC82 /* fermie04rSpriteSheet.gif in Resources */,
+				82D1D98520B04C3C00136978 /* cute_image.jpg in Resources */,
+				E4D0BCA220D3CE1200B26378 /* BonBeurreMap1.txt in Resources */,
+				E4168B3820EA57D6005A98EC /* fermie01rSpriteSheet.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82D1D97720B04C3C00136978 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D1D97420B04C3C00136978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821C2AA420CD693C0074BACE /* GameServerService.cpp in Sources */,
+				E46C925A20D7FC0A0021E6FB /* KeyboardController.cpp in Sources */,
+				82A54EBC20F5453D00408B1F /* Lobby.cpp in Sources */,
+				82BA799E20EFD94D00328426 /* StringUtil.cpp in Sources */,
+				E406F99420B0A6D700633957 /* Map.cpp in Sources */,
+				E406F99720B0A9B100633957 /* Bomb.cpp in Sources */,
+				82D1D98220B04C3C00136978 /* main.cpp in Sources */,
+				E423497120CE9A26005DE9FB /* LevelManager.cpp in Sources */,
+				E426533C20C983E50088624E /* GameEngine.cpp in Sources */,
+				E4CA526420DB9CBF004CB928 /* RoomMenu.cpp in Sources */,
+				82D1D97F20B04C3C00136978 /* ResourcePath.mm in Sources */,
+				E406F99A20B0AAFD00633957 /* Player.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82D1D98C20B04C3C00136978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		82D1D98D20B04C3C00136978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		82D1D98F20B04C3C00136978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BombermanClient/BombermanClient-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "esgi.moc.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82D1D99020B04C3C00136978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BombermanClient/BombermanClient-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "esgi.moc.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D1D97320B04C3C00136978 /* Build configuration list for PBXProject "BombermanClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D1D98C20B04C3C00136978 /* Debug */,
+				82D1D98D20B04C3C00136978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D1D98E20B04C3C00136978 /* Build configuration list for PBXNativeTarget "BombermanClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D1D98F20B04C3C00136978 /* Debug */,
+				82D1D99020B04C3C00136978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D1D97020B04C3C00136978 /* Project object */;
+}
